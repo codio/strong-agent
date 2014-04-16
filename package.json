@@ -1,0 +1,61 @@
+{
+  "name": "strong-agent",
+  "version": "0.4.0",
+  "description": "Application Performance Monitoring Agent",
+  "author": {
+    "name": "StrongLoop",
+    "email": "callback@strongloop.com"
+  },
+  "homepage": "http://strongloop.com",
+  "contributors": [],
+  "main": "lib/main",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "measured": "~0.1.4",
+    "restler": "2.x",
+    "underscore": "1.x",
+    "semver": "~2.2.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8",
+    "should": "~1.2.2",
+    "express": "~3.3.5",
+    "loopback": "1.x >=1.4.1",
+    "sinon": "~1.7.3"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild || exit 0",
+    "test": "SL_ENV=dev node node_modules/.bin/tap --tap --gc --stderr --timeout 5 ${TESTS:-test/test-*.js}",
+    "lint": "make -C src lint"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "apm",
+    "monitoring",
+    "performance",
+    "profiling",
+    "heap",
+    "event loop",
+    "analytics",
+    "metrics",
+    "alerts",
+    "profiler",
+    "response",
+    "time",
+    "memory",
+    "slowest functions"
+  ],
+  "readme": "# strong-agent\n\nProfile and control Node.js processes and clusters using StrongOps.\n\n## Using strong-agent\n\nSee [the full documentation](http://docs.strongloop.com/strong-agent).\n\n## Summary\n\n[Register](https://strongloop.com/register/) with StrongLoop.  It's free for evaluation.\n\nThen:\n\n    npm install -g strong-cli\n    slc update\n    cd .../where/your/app/is\n    slc strongops # ... provide email/password\n    slc run your_server.js\n\nGo to the [dashboard](https://strongloop.com/ops/dashboard) to see your\napplication.\n",
+  "readmeFilename": "README.md",
+  "_id": "strong-agent@0.4.0",
+  "dist": {
+    "shasum": "678ee6e6a43fe6fbb0b203b8073cdf419ffae26d"
+  },
+  "_from": "strong-agent@",
+  "_resolved": "https://registry.npmjs.org/strong-agent/-/strong-agent-0.4.0.tgz"
+}
