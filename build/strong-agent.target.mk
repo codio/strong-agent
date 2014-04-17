@@ -43,9 +43,9 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/src \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/deps/uv/include \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/deps/v8/include
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/src \
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/deps/uv/include \
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/deps/v8/include
 
 DEFS_Release := \
 	'-D_DARWIN_USE_64_BIT_INODE=1' \
@@ -86,9 +86,9 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/src \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/deps/uv/include \
-	-I/Users/dignifiedquire/.node-gyp/0.10.26/deps/v8/include
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/src \
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/deps/uv/include \
+	-I/Users/dignifiedquire/.node-gyp/0.10.25/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/strong-agent.o

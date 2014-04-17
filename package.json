@@ -1,6 +1,6 @@
 {
   "name": "strong-agent",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "Application Performance Monitoring Agent",
   "author": {
     "name": "StrongLoop",
@@ -52,10 +52,10 @@
   ],
   "readme": "# strong-agent\n\nProfile and control Node.js processes and clusters using StrongOps.\n\n## Using strong-agent\n\nSee [the full documentation](http://docs.strongloop.com/strong-agent).\n\n## Summary\n\n[Register](https://strongloop.com/register/) with StrongLoop.  It's free for evaluation.\n\nThen:\n\n    npm install -g strong-cli\n    slc update\n    cd .../where/your/app/is\n    slc strongops # ... provide email/password\n    slc run your_server.js\n\nGo to the [dashboard](https://strongloop.com/ops/dashboard) to see your\napplication.\n",
   "readmeFilename": "README.md",
-  "_id": "strong-agent@0.4.0",
+  "_id": "strong-agent@0.4.2",
   "dist": {
-    "shasum": "678ee6e6a43fe6fbb0b203b8073cdf419ffae26d"
+    "shasum": "e3a51963064ab7a474926c68fc300caaec7fcf68"
   },
-  "_from": "strong-agent@",
-  "_resolved": "https://registry.npmjs.org/strong-agent/-/strong-agent-0.4.0.tgz"
+  "_from": "strong-agent@0.4.2",
+  "_resolved": "https://registry.npmjs.org/strong-agent/-/strong-agent-0.4.2.tgz"
 }
